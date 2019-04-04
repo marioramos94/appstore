@@ -13,6 +13,6 @@ RUN yarn install
 RUN yarn build
 
 # Expose internal port
-EXPOSE 8080
+EXPOSE 80
 
 CMD [ "yarn", "start" ]
